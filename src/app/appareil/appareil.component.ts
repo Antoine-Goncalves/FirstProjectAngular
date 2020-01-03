@@ -13,4 +13,8 @@ export class AppareilComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  getStatus() {
+    return this.appareilStatus;
+  }
 }
