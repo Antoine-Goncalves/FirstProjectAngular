@@ -300,7 +300,7 @@
   <div class="row">
     <div class="col-xs-12">
       <h2>Mes appareils</h2>
-      <p>Mis à jour : {{ lastUpdate }}</p>
+      <p>Mis à jour : {{ lastUpdate | date: "medium" }}</p>
       <ul class="list-group">
         <app-appareil
           *ngFor="let appareil of appareils"
